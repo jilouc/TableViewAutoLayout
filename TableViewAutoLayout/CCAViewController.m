@@ -9,11 +9,6 @@
 #import "CCAViewController.h"
 #import "CCACustomCell.h"
 
-@interface UITableView (Private)
-- (void)_configureCellForDisplay:(id)arg1 forIndexPath:(id)arg2;
-- (float)_contentWidthForCell:(id)arg1 forRowAtIndexPath:(id)arg2;
-@end
-
 @interface CCAViewController () <UITableViewDataSource, UITableViewDelegate>
 {
     NSArray *_tableData;
