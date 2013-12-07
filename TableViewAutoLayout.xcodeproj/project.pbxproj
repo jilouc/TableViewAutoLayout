@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE2B14371853295E00654867 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2B14361853295E00654867 /* Foundation.framework */; };
+		DE2B14391853295E00654867 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2B14381853295E00654867 /* CoreGraphics.framework */; };
+		DE2B143B1853295E00654867 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2B143A1853295E00654867 /* UIKit.framework */; };
+		DE2B14411853295E00654867 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE2B143F1853295E00654867 /* InfoPlist.strings */; };
+		DE2B14431853295E00654867 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2B14421853295E00654867 /* main.m */; };
+		DE2B14471853295E00654867 /* CCAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2B14461853295E00654867 /* CCAAppDelegate.m */; };
+		DE2B144D1853295F00654867 /* CCAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2B144C1853295F00654867 /* CCAViewController.m */; };
+		DE2B144F1853295F00654867 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2B144E1853295F00654867 /* Images.xcassets */; };
+		DE2B14561853295F00654867 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2B14551853295F00654867 /* XCTest.framework */; };
+		DE2B14571853295F00654867 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2B14361853295E00654867 /* Foundation.framework */; };
+		DE2B14581853295F00654867 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2B143A1853295E00654867 /* UIKit.framework */; };
+		DE2B14601853295F00654867 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE2B145E1853295F00654867 /* InfoPlist.strings */; };
+		DE2B14621853295F00654867 /* TableViewAutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2B14611853295F00654867 /* TableViewAutoLayoutTests.m */; };
+		DE2B146D18532D6600654867 /* CCACustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2B146C18532D6600654867 /* CCACustomCell.m */; };
+		DE2B146F18532E0F00654867 /* CCACustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2B146E18532E0F00654867 /* CCACustomCell.xib */; };
+		DE2B147118532EBD00654867 /* CCAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2B147018532EBD00654867 /* CCAViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE2B14591853295F00654867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE2B142B1853295E00654867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE2B14321853295E00654867;
+			remoteInfo = TableViewAutoLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE2B14331853295E00654867 /* TableViewAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2B14361853295E00654867 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE2B14381853295E00654867 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE2B143A1853295E00654867 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE2B143E1853295E00654867 /* TableViewAutoLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewAutoLayout-Info.plist"; sourceTree = "<group>"; };
+		DE2B14401853295E00654867 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE2B14421853295E00654867 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE2B14441853295E00654867 /* TableViewAutoLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewAutoLayout-Prefix.pch"; sourceTree = "<group>"; };
+		DE2B14451853295E00654867 /* CCAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAAppDelegate.h; sourceTree = "<group>"; };
+		DE2B14461853295E00654867 /* CCAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAAppDelegate.m; sourceTree = "<group>"; };
+		DE2B144B1853295F00654867 /* CCAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAViewController.h; sourceTree = "<group>"; };
+		DE2B144C1853295F00654867 /* CCAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAViewController.m; sourceTree = "<group>"; };
+		DE2B144E1853295F00654867 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE2B14541853295F00654867 /* TableViewAutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2B14551853295F00654867 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DE2B145D1853295F00654867 /* TableViewAutoLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewAutoLayoutTests-Info.plist"; sourceTree = "<group>"; };
+		DE2B145F1853295F00654867 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE2B14611853295F00654867 /* TableViewAutoLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewAutoLayoutTests.m; sourceTree = "<group>"; };
+		DE2B146B18532D6600654867 /* CCACustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCACustomCell.h; sourceTree = "<group>"; };
+		DE2B146C18532D6600654867 /* CCACustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCACustomCell.m; sourceTree = "<group>"; };
+		DE2B146E18532E0F00654867 /* CCACustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCACustomCell.xib; sourceTree = "<group>"; };
+		DE2B147018532EBD00654867 /* CCAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCAViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE2B14301853295E00654867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2B14391853295E00654867 /* CoreGraphics.framework in Frameworks */,
+				DE2B143B1853295E00654867 /* UIKit.framework in Frameworks */,
+				DE2B14371853295E00654867 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2B14511853295F00654867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2B14561853295F00654867 /* XCTest.framework in Frameworks */,
+				DE2B14581853295F00654867 /* UIKit.framework in Frameworks */,
+				DE2B14571853295F00654867 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE2B142A1853295E00654867 = {
+			isa = PBXGroup;
+			children = (
+				DE2B143C1853295E00654867 /* TableViewAutoLayout */,
+				DE2B145B1853295F00654867 /* TableViewAutoLayoutTests */,
+				DE2B14351853295E00654867 /* Frameworks */,
+				DE2B14341853295E00654867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE2B14341853295E00654867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE2B14331853295E00654867 /* TableViewAutoLayout.app */,
+				DE2B14541853295F00654867 /* TableViewAutoLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE2B14351853295E00654867 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE2B14361853295E00654867 /* Foundation.framework */,
+				DE2B14381853295E00654867 /* CoreGraphics.framework */,
+				DE2B143A1853295E00654867 /* UIKit.framework */,
+				DE2B14551853295F00654867 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE2B143C1853295E00654867 /* TableViewAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				DE2B14451853295E00654867 /* CCAAppDelegate.h */,
+				DE2B14461853295E00654867 /* CCAAppDelegate.m */,
+				DE2B144B1853295F00654867 /* CCAViewController.h */,
+				DE2B144C1853295F00654867 /* CCAViewController.m */,
+				DE2B147018532EBD00654867 /* CCAViewController.xib */,
+				DE2B146B18532D6600654867 /* CCACustomCell.h */,
+				DE2B146C18532D6600654867 /* CCACustomCell.m */,
+				DE2B146E18532E0F00654867 /* CCACustomCell.xib */,
+				DE2B144E1853295F00654867 /* Images.xcassets */,
+				DE2B143D1853295E00654867 /* Supporting Files */,
+			);
+			path = TableViewAutoLayout;
+			sourceTree = "<group>";
+		};
+		DE2B143D1853295E00654867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE2B143E1853295E00654867 /* TableViewAutoLayout-Info.plist */,
+				DE2B143F1853295E00654867 /* InfoPlist.strings */,
+				DE2B14421853295E00654867 /* main.m */,
+				DE2B14441853295E00654867 /* TableViewAutoLayout-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE2B145B1853295F00654867 /* TableViewAutoLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE2B14611853295F00654867 /* TableViewAutoLayoutTests.m */,
+				DE2B145C1853295F00654867 /* Supporting Files */,
+			);
+			path = TableViewAutoLayoutTests;
+			sourceTree = "<group>";
+		};
+		DE2B145C1853295F00654867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE2B145D1853295F00654867 /* TableViewAutoLayoutTests-Info.plist */,
+				DE2B145E1853295F00654867 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE2B14321853295E00654867 /* TableViewAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2B14651853295F00654867 /* Build configuration list for PBXNativeTarget "TableViewAutoLayout" */;
+			buildPhases = (
+				DE2B142F1853295E00654867 /* Sources */,
+				DE2B14301853295E00654867 /* Frameworks */,
+				DE2B14311853295E00654867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewAutoLayout;
+			productName = TableViewAutoLayout;
+			productReference = DE2B14331853295E00654867 /* TableViewAutoLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE2B14531853295F00654867 /* TableViewAutoLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2B14681853295F00654867 /* Build configuration list for PBXNativeTarget "TableViewAutoLayoutTests" */;
+			buildPhases = (
+				DE2B14501853295F00654867 /* Sources */,
+				DE2B14511853295F00654867 /* Frameworks */,
+				DE2B14521853295F00654867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE2B145A1853295F00654867 /* PBXTargetDependency */,
+			);
+			name = TableViewAutoLayoutTests;
+			productName = TableViewAutoLayoutTests;
+			productReference = DE2B14541853295F00654867 /* TableViewAutoLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE2B142B1853295E00654867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CCA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Cocoapps;
+				TargetAttributes = {
+					DE2B14531853295F00654867 = {
+						TestTargetID = DE2B14321853295E00654867;
+					};
+				};
+			};
+			buildConfigurationList = DE2B142E1853295E00654867 /* Build configuration list for PBXProject "TableViewAutoLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE2B142A1853295E00654867;
+			productRefGroup = DE2B14341853295E00654867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE2B14321853295E00654867 /* TableViewAutoLayout */,
+				DE2B14531853295F00654867 /* TableViewAutoLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE2B14311853295E00654867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2B147118532EBD00654867 /* CCAViewController.xib in Resources */,
+				DE2B146F18532E0F00654867 /* CCACustomCell.xib in Resources */,
+				DE2B144F1853295F00654867 /* Images.xcassets in Resources */,
+				DE2B14411853295E00654867 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2B14521853295F00654867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2B14601853295F00654867 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE2B142F1853295E00654867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2B146D18532D6600654867 /* CCACustomCell.m in Sources */,
+				DE2B14471853295E00654867 /* CCAAppDelegate.m in Sources */,
+				DE2B144D1853295F00654867 /* CCAViewController.m in Sources */,
+				DE2B14431853295E00654867 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2B14501853295F00654867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2B14621853295F00654867 /* TableViewAutoLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE2B145A1853295F00654867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE2B14321853295E00654867 /* TableViewAutoLayout */;
+			targetProxy = DE2B14591853295F00654867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE2B143F1853295E00654867 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2B14401853295E00654867 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE2B145E1853295F00654867 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2B145F1853295F00654867 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE2B14631853295F00654867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE2B14641853295F00654867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE2B14661853295F00654867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewAutoLayout/TableViewAutoLayout-Prefix.pch";
+				INFOPLIST_FILE = "TableViewAutoLayout/TableViewAutoLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE2B14671853295F00654867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewAutoLayout/TableViewAutoLayout-Prefix.pch";
+				INFOPLIST_FILE = "TableViewAutoLayout/TableViewAutoLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DE2B14691853295F00654867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableViewAutoLayout.app/TableViewAutoLayout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewAutoLayout/TableViewAutoLayout-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TableViewAutoLayoutTests/TableViewAutoLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DE2B146A1853295F00654867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableViewAutoLayout.app/TableViewAutoLayout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewAutoLayout/TableViewAutoLayout-Prefix.pch";
+				INFOPLIST_FILE = "TableViewAutoLayoutTests/TableViewAutoLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE2B142E1853295E00654867 /* Build configuration list for PBXProject "TableViewAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2B14631853295F00654867 /* Debug */,
+				DE2B14641853295F00654867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2B14651853295F00654867 /* Build configuration list for PBXNativeTarget "TableViewAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2B14661853295F00654867 /* Debug */,
+				DE2B14671853295F00654867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE2B14681853295F00654867 /* Build configuration list for PBXNativeTarget "TableViewAutoLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2B14691853295F00654867 /* Debug */,
+				DE2B146A1853295F00654867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE2B142B1853295E00654867 /* Project object */;
+}

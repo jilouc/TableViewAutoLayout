@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4511" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3745"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="X4E-dL-xTy" customClass="CCACustomCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="41"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="X4E-dL-xTy" id="Jv0-KU-a6n">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="290" translatesAutoresizingMaskIntoConstraints="NO" id="ltg-kG-iMN">
+                        <rect key="frame" x="15" y="10" width="290" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ltg-kG-iMN" firstAttribute="leading" secondItem="Jv0-KU-a6n" secondAttribute="leading" constant="15" id="6ih-Op-X9c"/>
+                    <constraint firstItem="ltg-kG-iMN" firstAttribute="top" secondItem="Jv0-KU-a6n" secondAttribute="top" constant="10" id="RV0-Sl-hEN"/>
+                    <constraint firstAttribute="bottom" secondItem="ltg-kG-iMN" secondAttribute="bottom" constant="10" id="cdf-BL-8WK"/>
+                    <constraint firstAttribute="trailing" secondItem="ltg-kG-iMN" secondAttribute="trailing" constant="15" id="yU1-zg-VVR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="customLabel" destination="ltg-kG-iMN" id="1YB-NZ-kz9"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
